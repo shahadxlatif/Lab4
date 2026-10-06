@@ -1,0 +1,17 @@
+Task 2 — Family Queries
+
+% 1. Show the names of all females ?- female(X). X = sara ; X = nora.
+
+% 2. Show whether there is any male ?- male(_). true.
+
+% 3. Show the grandparent of Faisal ?- parent(X,Y), parent(Y,faisal). X
+= ali, Y = muhammad.
+
+% 4. Show all daughters of Ahmad ?- parent(ahmad,X), female(X). X = sara
+; X = nora.
+
+% 5. Show whether Ahmad and Muhammad have a common parent ?-
+parent(X,ahmad), parent(X,muhammad). X = ali.
+
+% 6. Show whether Khan is the brother of Nora ?- parent(ahmed,khan),
+parent(ahmed,nora), male(khan). true.
